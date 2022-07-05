@@ -52,14 +52,14 @@ function Mn() {
               <Row>
                 <Col lg="6">
                   <p><  FaBookMedical style={{ height: "1%", width: "8%", marginLeft: "24%" }} /></p>
-                  <p style={{ margin: "-2% 0 0 25%", fontSize: "20px" }}><b>General Treatment</b></p>
-                  <p style={{ margin: "2% 0 10% 25%", fontFamily: "Tw Cen MT", fontSize: "18px", color: "blue" }}>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                  <p style={{ margin: "-2% 0 0 25%", fontSize: "20px", color:"#1e5ad7" }}><b>General Treatment</b></p>
+                  <p style={{ margin: "2% 0 10% 25%", fontFamily: "Tw Cen MT", fontSize: "18px"   }}>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
                 </Col>
 
                 <Col lg="6">
                   <p><  MdOutlineInsertChartOutlined style={{ height: "1%", marginLeft: "24%", width: "10%" }} /></p>
-                  <p style={{ margin: "-3% 0 0 25%", fontSize: "20px" }}><b>Ear Treatment</b></p>
-                  <p style={{ margin: "2% 0 10% 25%", fontFamily: "Tw Cen MT", fontSize: "18px", color: "blue" }}>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                  <p style={{ margin: "-3% 0 0 25%", fontSize: "20px" , color:"#1e5ad7"}}><b>Ear Treatment</b></p>
+                  <p style={{ margin: "2% 0 10% 25%", fontFamily: "Tw Cen MT", fontSize: "18px" }}>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
                 </Col>
 
 
@@ -67,13 +67,13 @@ function Mn() {
               <Row >
                 <Col lg="6">
                   <p><  FiEye style={{ width: "10%", height: "1%", marginLeft: "24%" }} /></p>
-                  <p style={{ margin: "-3% 0 0% 25%", fontSize: "20px" }}><b>Vision Problems</b></p>
-                  <p style={{ margin: "2% 0 10% 25%", fontFamily: "Tw Cen MT", fontSize: "18px", color: "blue" }}>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                  <p style={{ margin: "-3% 0 0% 25%", fontSize: "20px", color:"#1e5ad7" }}><b>Vision Problems</b></p>
+                  <p style={{ margin: "2% 0 10% 25%", fontFamily: "Tw Cen MT", fontSize: "18px" }}>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
                 </Col>
                 <Col lg="6">
-                  <p><  AiFillHeart style={{ height: "1%", width: "10%", marginLeft: "24%", color: "red" }} /></p>
-                  <p style={{ margin: "-3% 0 0% 25%", fontSize: "20px" }}><b>Heart Surgery</b></p>
-                  <p style={{ margin: "2% 0 10% 25%", fontFamily: "Tw Cen MT", fontSize: "18px", color: "blue" }}>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                  <p><  AiFillHeart style={{ height: "1%", width: "10%", marginLeft: "24%"}} /></p>
+                  <p style={{ margin: "-3% 0 0% 25%", fontSize: "20px", color:"#1e5ad7" }}><b>Heart Surgery</b></p>
+                  <p style={{ margin: "2% 0 10% 25%", fontFamily: "Tw Cen MT", fontSize: "18px" }}>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
                 </Col>
 
               </Row>
@@ -373,7 +373,7 @@ function Mn() {
                   </li>
                   <li>
                     <button className={mycs.bu} style={{ border: "none", borderRadius: "50%", width: "35px", height: "35px" }}>  < FiInstagram /></button>
-
+                    {/* <a href="instagram.com/parth_vaghasiya_111/">hy</a> */}
                   </li>
                   <li>
                     <button className={mycs.bu} style={{ border: "none", borderRadius: "50%", width: "35px", height: "35px" }}>  < FiTwitter /></button>
